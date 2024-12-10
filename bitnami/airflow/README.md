@@ -298,7 +298,7 @@ Adding the TLS parameter (where available) will cause the chart to generate HTTP
 
 [Learn more about Ingress controllers](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/).
 
-### HTTPS for Webserver
+### Securing traffic using TLS
 
 By default, this chart assumes TLS is managed by the Ingress Controller and terminates the TLS connection in the Ingress Controller. This can be done by setting `ingress.enabled` and `ingress.tls` parameters to `true` as explained in the section above. However, it is possible to configure TLS encryption for the Airflow Webserver directly by setting the `web.tls.enabled` parameter to `true`.
 
@@ -356,6 +356,10 @@ Learn more about [sidecar containers](https://kubernetes.io/docs/concepts/worklo
 This chart allows you to set your custom affinity using the `affinity` parameter. Find more information about Pod's affinity in the [kubernetes documentation](https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#affinity-and-anti-affinity).
 
 As an alternative, you can use of the preset configurations for pod affinity, pod anti-affinity, and node affinity available at the [bitnami/common](https://github.com/bitnami/charts/tree/main/bitnami/common#affinities) chart. To do so, set the `podAffinityPreset`, `podAntiAffinityPreset`, or `nodeAffinityPreset` parameters.
+
+### Backup and restore
+
+To back up and restore Helm chart deployments on Kubernetes, you need to back up the persistent volumes from the source deployment and attach them to a new deployment using [Velero](https://velero.io/), a Kubernetes backup/restore tool. Find the instructions for using Velero in [this guide](https://techdocs.broadcom.com/us/en/vmware-tanzu/application-catalog/tanzu-application-catalog/services/tac-doc/apps-tutorials-backup-restore-deployments-velero-index.html).
 
 ## Persistence
 

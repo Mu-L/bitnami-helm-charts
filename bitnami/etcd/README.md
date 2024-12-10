@@ -213,7 +213,7 @@ If the `startFromSnapshot.*` parameters are used at the same time as the `disast
 
 > NOTE: The disaster recovery feature requires volumes with ReadWriteMany access mode.
 
-### Backup and restore the etcd keyspace
+### Backup and restore
 
 Two different approaches are available to back up and restore this Helm Chart:
 
@@ -510,6 +510,7 @@ If you encounter errors when working with persistent volumes, refer to our [trou
 | `service.peerPortNameOverride`     | etcd peer port name override                                                                                                                                   | `""`        |
 | `service.metricsPortNameOverride`  | etcd metrics port name override. The metrics port is only exposed when metrics.useSeparateEndpoint is true.                                                    | `""`        |
 | `service.loadBalancerIP`           | loadBalancerIP for the etcd service (optional, cloud specific)                                                                                                 | `""`        |
+| `service.loadBalancerClass`        | loadBalancerClass for the etcd service (optional, cloud specific)                                                                                              | `""`        |
 | `service.loadBalancerSourceRanges` | Load Balancer source ranges                                                                                                                                    | `[]`        |
 | `service.externalIPs`              | External IPs                                                                                                                                                   | `[]`        |
 | `service.externalTrafficPolicy`    | %%MAIN_CONTAINER_NAME%% service external traffic policy                                                                                                        | `Cluster`   |
