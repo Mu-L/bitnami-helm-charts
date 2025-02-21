@@ -556,6 +556,7 @@ There are cases where you may want to deploy extra objects, such a ConfigMap con
 | Name                     | Description                                                                             | Value           |
 | ------------------------ | --------------------------------------------------------------------------------------- | --------------- |
 | `kubeVersion`            | Override Kubernetes version                                                             | `""`            |
+| `apiVersions`            | Override Kubernetes API versions reported by .Capabilities                              | `[]`            |
 | `nameOverride`           | String to partially override common.names.name                                          | `""`            |
 | `fullnameOverride`       | String to fully override common.names.fullname                                          | `""`            |
 | `namespaceOverride`      | String to fully override common.names.namespace                                         | `""`            |
@@ -1295,7 +1296,7 @@ helm install my-release -f values.yaml oci://REGISTRY_NAME/REPOSITORY_NAME/dremi
 
 ## License
 
-Copyright &copy; 2024 Broadcom. The term "Broadcom" refers to Broadcom Inc. and/or its subsidiaries.
+Copyright &copy; 2025 Broadcom. The term "Broadcom" refers to Broadcom Inc. and/or its subsidiaries.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

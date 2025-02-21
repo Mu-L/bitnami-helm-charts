@@ -1,8 +1,23 @@
 # Changelog
 
-## 18.1.1 (2025-01-17)
+## 18.1.4 (2025-02-21)
 
-* [bitnami/phpmyadmin] Release 18.1.1 ([#31452](https://github.com/bitnami/charts/pull/31452))
+* [bitnami/phpmyadmin] Release 18.1.4 ([#32100](https://github.com/bitnami/charts/pull/32100))
+
+## <small>18.1.3 (2025-02-20)</small>
+
+* [bitnami/*] Use CDN url for the Bitnami Application Icons (#31881) ([d9bb11a](https://github.com/bitnami/charts/commit/d9bb11a9076b9bfdcc70ea022c25ef50e9713657)), closes [#31881](https://github.com/bitnami/charts/issues/31881)
+* [bitnami/phpmyadmin] Release 18.1.3 (#32094) ([db38656](https://github.com/bitnami/charts/commit/db386563131859663c5be9a1943c4828fd7173bc)), closes [#32094](https://github.com/bitnami/charts/issues/32094)
+* Update copyright year (#31682) ([e9f02f5](https://github.com/bitnami/charts/commit/e9f02f5007068751f7eb2270fece811e685c99b6)), closes [#31682](https://github.com/bitnami/charts/issues/31682)
+
+## <small>18.1.2 (2025-01-21)</small>
+
+* [bitnami/phpmyadmin] Release 18.1.2 (#31501) ([b80d31c](https://github.com/bitnami/charts/commit/b80d31c98558d3111b40f4c932331035045816df)), closes [#31501](https://github.com/bitnami/charts/issues/31501)
+
+## <small>18.1.1 (2025-01-17)</small>
+
+* [bitnami/*] Fix typo in README (#31052) ([b41a51d](https://github.com/bitnami/charts/commit/b41a51d1bd04841fc108b78d3b8357a5292771c8)), closes [#31052](https://github.com/bitnami/charts/issues/31052)
+* [bitnami/phpmyadmin] Release 18.1.1 (#31452) ([6665848](https://github.com/bitnami/charts/commit/66658481c760abea6015c05d2368e2dc88566fc5)), closes [#31452](https://github.com/bitnami/charts/issues/31452)
 
 ## 18.1.0 (2024-12-10)
 

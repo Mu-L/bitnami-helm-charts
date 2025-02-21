@@ -1,8 +1,34 @@
 # Changelog
 
-## 24.1.7 (2025-01-17)
+## 24.3.3 (2025-02-20)
 
-* [bitnami/harbor] Release 24.1.7 ([#31457](https://github.com/bitnami/charts/pull/31457))
+* [bitnami/harbor] Release 24.3.3 ([#32091](https://github.com/bitnami/charts/pull/32091))
+
+## <small>24.3.2 (2025-02-18)</small>
+
+* [bitnami/harbor] Release 24.3.2 (#31965) ([273fa3f](https://github.com/bitnami/charts/commit/273fa3fd0c3da7da24a8f5ed25e38615deafba8b)), closes [#31965](https://github.com/bitnami/charts/issues/31965)
+
+## <small>24.3.1 (2025-02-17)</small>
+
+* [bitnami/*] Use CDN url for the Bitnami Application Icons (#31881) ([d9bb11a](https://github.com/bitnami/charts/commit/d9bb11a9076b9bfdcc70ea022c25ef50e9713657)), closes [#31881](https://github.com/bitnami/charts/issues/31881)
+* [bitnami/harbor] Added tpl to externalURL (#31940) ([4b9c79f](https://github.com/bitnami/charts/commit/4b9c79fdf34d9f38cfbd65640152b3484cc43ed5)), closes [#31940](https://github.com/bitnami/charts/issues/31940)
+* Update copyright year (#31682) ([e9f02f5](https://github.com/bitnami/charts/commit/e9f02f5007068751f7eb2270fece811e685c99b6)), closes [#31682](https://github.com/bitnami/charts/issues/31682)
+
+## 24.3.0 (2025-01-27)
+
+* [bitnami/harbor] Added existingSecret parameter for external database (#31492) ([4cf7499](https://github.com/bitnami/charts/commit/4cf749975ff948cae80d961af7c75debf9fc49a3)), closes [#31492](https://github.com/bitnami/charts/issues/31492)
+
+## 24.2.0 (2025-01-27)
+
+* [bitnami/harbor] allow custom trivy db repository (#31594) ([1041261](https://github.com/bitnami/charts/commit/1041261ac0c42618da3e0357e18ac200052ff31f)), closes [#31594](https://github.com/bitnami/charts/issues/31594)
+
+## <small>24.1.8 (2025-01-23)</small>
+
+* [bitnami/harbor] Clarify usage of custom POSTGRESQL_PASSWORD (#31507) ([b871457](https://github.com/bitnami/charts/commit/b8714574f24519dcec83895fb19cb7819c6e016e)), closes [#31507](https://github.com/bitnami/charts/issues/31507)
+
+## <small>24.1.7 (2025-01-17)</small>
+
+* [bitnami/harbor] Release 24.1.7 (#31457) ([a607b9f](https://github.com/bitnami/charts/commit/a607b9faa767ef8ed65f535c0a4563ebfb39429e)), closes [#31457](https://github.com/bitnami/charts/issues/31457)
 
 ## <small>24.1.6 (2025-01-07)</small>
 

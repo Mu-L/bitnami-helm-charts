@@ -1,8 +1,26 @@
 # Changelog
 
-## 3.8.3 (2025-01-17)
+## 3.8.7 (2025-02-19)
 
-* [bitnami/grafana-tempo] Release 3.8.3 ([#31423](https://github.com/bitnami/charts/pull/31423))
+* [bitnami/grafana-tempo] Release 3.8.7 ([#32001](https://github.com/bitnami/charts/pull/32001))
+
+## <small>3.8.6 (2025-02-14)</small>
+
+* [bitnami/*] Use CDN url for the Bitnami Application Icons (#31881) ([d9bb11a](https://github.com/bitnami/charts/commit/d9bb11a9076b9bfdcc70ea022c25ef50e9713657)), closes [#31881](https://github.com/bitnami/charts/issues/31881)
+* [bitnami/grafana-tempo] Release 3.8.6 (#31936) ([3032c3c](https://github.com/bitnami/charts/commit/3032c3c4b84eb75e2b6e1e0370ef4635d5976aa8)), closes [#31936](https://github.com/bitnami/charts/issues/31936)
+
+## <small>3.8.5 (2025-02-04)</small>
+
+* [bitnami/grafana-tempo] Release 3.8.5 (#31757) ([1acfc9f](https://github.com/bitnami/charts/commit/1acfc9ffccc1f081c200dc8a0b9b37f477ce46da)), closes [#31757](https://github.com/bitnami/charts/issues/31757)
+* Update copyright year (#31682) ([e9f02f5](https://github.com/bitnami/charts/commit/e9f02f5007068751f7eb2270fece811e685c99b6)), closes [#31682](https://github.com/bitnami/charts/issues/31682)
+
+## <small>3.8.4 (2025-01-24)</small>
+
+* [bitnami/grafana-tempo] Release 3.8.4 (#31557) ([b291adb](https://github.com/bitnami/charts/commit/b291adb57d77f42c00903a6bdf0f6e3fd82842c6)), closes [#31557](https://github.com/bitnami/charts/issues/31557)
+
+## <small>3.8.3 (2025-01-17)</small>
+
+* [bitnami/grafana-tempo] Release 3.8.3 (#31423) ([e30df1e](https://github.com/bitnami/charts/commit/e30df1e7e90673f0e80a30dafff3e98271434401)), closes [#31423](https://github.com/bitnami/charts/issues/31423)
 
 ## <small>3.8.2 (2025-01-14)</small>
 

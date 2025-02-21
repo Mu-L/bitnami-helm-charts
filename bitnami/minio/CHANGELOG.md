@@ -1,8 +1,33 @@
 # Changelog
 
-## 14.10.4 (2025-01-17)
+## 15.0.4 (2025-02-19)
 
-* [bitnami/minio] Release 14.10.4 ([#31433](https://github.com/bitnami/charts/pull/31433))
+* [bitnami/minio] Release 15.0.4 ([#32019](https://github.com/bitnami/charts/pull/32019))
+
+## <small>15.0.3 (2025-02-08)</small>
+
+* [bitnami/minio] Release 15.0.3 (#31841) ([4d202ee](https://github.com/bitnami/charts/commit/4d202eee46ee58372c9b906b1426a3cd80fba4e9)), closes [#31841](https://github.com/bitnami/charts/issues/31841)
+
+## <small>15.0.2 (2025-02-05)</small>
+
+* [bitnami/minio] Release 15.0.2 (#31768) ([1da85ac](https://github.com/bitnami/charts/commit/1da85ac792b1c42d7a83e654fe1725aa43d1550e)), closes [#31768](https://github.com/bitnami/charts/issues/31768)
+
+## <small>15.0.1 (2025-02-04)</small>
+
+* [bitnami/minio] Release 15.0.1 (#31727) ([7377ec7](https://github.com/bitnami/charts/commit/7377ec7a66b8397305bc388f8fd3d0e1199d36d8)), closes [#31727](https://github.com/bitnami/charts/issues/31727)
+* Update copyright year (#31682) ([e9f02f5](https://github.com/bitnami/charts/commit/e9f02f5007068751f7eb2270fece811e685c99b6)), closes [#31682](https://github.com/bitnami/charts/issues/31682)
+
+## 15.0.0 (2025-01-29)
+
+* [bitnami/minio] Release 15.0.0 (#31655) ([a9e8635](https://github.com/bitnami/charts/commit/a9e8635362eea50a02cd7eecb3faf968329a5f07)), closes [#31655](https://github.com/bitnami/charts/issues/31655)
+
+## <small>14.10.5 (2025-01-20)</small>
+
+* [bitnami/minio] chore: :recycle: Do not use wait-for-port in minio image (#31475) ([755f508](https://github.com/bitnami/charts/commit/755f508a920d3f3486adbf7212a5d8f59e52acb6)), closes [#31475](https://github.com/bitnami/charts/issues/31475)
+
+## <small>14.10.4 (2025-01-17)</small>
+
+* [bitnami/minio] Release 14.10.4 (#31433) ([163a43f](https://github.com/bitnami/charts/commit/163a43f4443e89720a5eb931309c1f41d26f8fcf)), closes [#31433](https://github.com/bitnami/charts/issues/31433)
 
 ## <small>14.10.3 (2024-12-20)</small>
 
@@ -2543,7 +2568,7 @@
 
 ## <small>0.1.6 (2019-05-29)</small>
 
-* Fix https://github.com/helm/charts/pull/14199\#issuecomment-496883321 and support _sha256_ as an imm ([95957ea](https://github.com/bitnami/charts/commit/95957ea6430f28ec3593053afb0bfccb75703c79)), closes [#issuecomment-496883321](https://github.com/bitnami/charts/issues/issuecomment-496883321)
+* Fix https://github.com/helm/charts/pull/14199\#issuecomment-496883321 and support _sha256_ as an imm ([95957ea](https://github.com/bitnami/charts/commit/95957ea6430f28ec3593053afb0bfccb75703c79))
 
 ## <small>0.1.5 (2019-05-28)</small>
 

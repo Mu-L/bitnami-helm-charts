@@ -242,6 +242,7 @@ As an alternative, you can use of the preset configurations for pod affinity, po
 | Name                     | Description                                                                                               | Value           |
 | ------------------------ | --------------------------------------------------------------------------------------------------------- | --------------- |
 | `kubeVersion`            | Force target Kubernetes version (using Helm capabilities if not set)                                      | `""`            |
+| `apiVersions`            | Override Kubernetes API versions reported by .Capabilities                                                | `[]`            |
 | `nameOverride`           | String to partially override common.names.fullname template with a string (will prepend the release name) | `""`            |
 | `fullnameOverride`       | String to fully override common.names.fullname template with a string                                     | `""`            |
 | `commonAnnotations`      | Common annotations to add to all Kong resources (sub-charts are not considered). Evaluated as a template  | `{}`            |
@@ -715,7 +716,7 @@ In order to properly migrate your data to this new version:
 
 ## License
 
-Copyright &copy; 2024 Broadcom. The term "Broadcom" refers to Broadcom Inc. and/or its subsidiaries.
+Copyright &copy; 2025 Broadcom. The term "Broadcom" refers to Broadcom Inc. and/or its subsidiaries.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

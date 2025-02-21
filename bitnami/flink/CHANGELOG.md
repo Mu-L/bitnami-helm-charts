@@ -1,8 +1,23 @@
 # Changelog
 
-## 1.4.1 (2024-12-26)
+## 1.4.4 (2025-02-21)
 
-* [bitnami/flink] Release 1.4.1 ([#31170](https://github.com/bitnami/charts/pull/31170))
+* [bitnami/flink] Release 1.4.4 ([#31995](https://github.com/bitnami/charts/pull/31995))
+
+## <small>1.4.3 (2025-02-12)</small>
+
+* [bitnami/*] Use CDN url for the Bitnami Application Icons (#31881) ([d9bb11a](https://github.com/bitnami/charts/commit/d9bb11a9076b9bfdcc70ea022c25ef50e9713657)), closes [#31881](https://github.com/bitnami/charts/issues/31881)
+* [bitnami/flink] Release 1.4.3 (#31905) ([cc6d993](https://github.com/bitnami/charts/commit/cc6d99384d62416d9b7265539d99f047833d6966)), closes [#31905](https://github.com/bitnami/charts/issues/31905)
+* Update copyright year (#31682) ([e9f02f5](https://github.com/bitnami/charts/commit/e9f02f5007068751f7eb2270fece811e685c99b6)), closes [#31682](https://github.com/bitnami/charts/issues/31682)
+
+## <small>1.4.2 (2025-01-28)</small>
+
+* [bitnami/flink] Release 1.4.2 (#31636) ([420ed14](https://github.com/bitnami/charts/commit/420ed144c8967af027f6c11a8e64800f394005ad)), closes [#31636](https://github.com/bitnami/charts/issues/31636)
+
+## <small>1.4.1 (2024-12-26)</small>
+
+* [bitnami/*] Fix typo in README (#31052) ([b41a51d](https://github.com/bitnami/charts/commit/b41a51d1bd04841fc108b78d3b8357a5292771c8)), closes [#31052](https://github.com/bitnami/charts/issues/31052)
+* [bitnami/flink] Release 1.4.1 (#31170) ([f07b771](https://github.com/bitnami/charts/commit/f07b771b405429185de6fdb6d631e87040cf6425)), closes [#31170](https://github.com/bitnami/charts/issues/31170)
 
 ## 1.4.0 (2024-12-10)
 

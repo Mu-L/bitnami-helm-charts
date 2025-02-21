@@ -1,8 +1,20 @@
 # Changelog
 
-## 1.2.1 (2024-12-19)
+## 1.3.0 (2025-02-20)
 
-* [bitnami/janusgraph] Release 1.2.1 ([#31098](https://github.com/bitnami/charts/pull/31098))
+* [bitnami/janusgraph] feat: use new helper for checking API versions ([#32050](https://github.com/bitnami/charts/pull/32050))
+
+## <small>1.2.3 (2025-01-28)</small>
+
+* [bitnami/janusgraph] Release 1.2.3 (#31623) ([6b46ea1](https://github.com/bitnami/charts/commit/6b46ea1284885a7d18edf92858c10e81fbed384e)), closes [#31623](https://github.com/bitnami/charts/issues/31623)
+
+## <small>1.2.2 (2025-01-28)</small>
+
+* [bitnami/janusgraph] Release 1.2.2 (#31611) ([f3ff98f](https://github.com/bitnami/charts/commit/f3ff98f6008da6920a12a8946b2f10fcfec4fcbe)), closes [#31611](https://github.com/bitnami/charts/issues/31611)
+
+## <small>1.2.1 (2024-12-19)</small>
+
+* [bitnami/janusgraph] Release 1.2.1 (#31098) ([06badcc](https://github.com/bitnami/charts/commit/06badcc25f8b22afec9026f49f4b187cda7d97fe)), closes [#31098](https://github.com/bitnami/charts/issues/31098)
 
 ## 1.2.0 (2024-12-18)
 
